@@ -27,6 +27,10 @@ class ViewController: UIViewController {
     @IBAction func buttonClicked(_ sender: UIButton) {
       
         print("check for branches")
+        
+        let testArray = [Any]()
+        
+        print(testArray)
     }
     
     func getData() {
