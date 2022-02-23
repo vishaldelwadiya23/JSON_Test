@@ -24,11 +24,6 @@ class ViewController: UIViewController {
         getData()
     }
     
-    @IBAction func buttonClicked(_ sender: UIButton) {
-      print("This is a Git tutorial")
-        print("hi")
-    }
-    
     func getData() {
         
         let urlString = "https://newsapi.org/v2/everything?q=apple&from=2022-02-14&to=2022-02-14&sortBy=popularity&apiKey=ef9b9abba21f447991be8f6feeb4c331"
