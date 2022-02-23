@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         getData()
+        
+        print("hello world...!")
     }
     
     func getData() {
