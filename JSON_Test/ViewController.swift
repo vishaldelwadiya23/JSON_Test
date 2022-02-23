@@ -26,11 +26,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonClicked(_ sender: UIButton) {
       
-        print("check for branches")
-        
-        let testArray = [Any]()
-        
-        print(testArray)
+        var ary: set = [1,2,5,7,8]
+        var ary1: set = [3,5,8,7]
         
     }
     
