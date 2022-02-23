@@ -13,9 +13,7 @@ struct NewsFeed: Codable {
     var status:String?
     var totalResults:Int?
     var articles:[Article]?
-    
-    var test:String?
-    
+        
     enum CodingKeys: String, CodingKey {
         case status = "status"
         case totalResults = "totalResults"

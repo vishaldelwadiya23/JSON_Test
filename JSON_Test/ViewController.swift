@@ -24,13 +24,6 @@ class ViewController: UIViewController {
         getData()
     }
     
-    @IBAction func buttonClicked(_ sender: UIButton) {
-      
-        var ary: set = [1,2,5,7,8]
-        var ary1: set = [3,5,8,7]
-        
-    }
-    
     func getData() {
         
         let urlString = "https://newsapi.org/v2/everything?q=apple&from=2022-02-14&to=2022-02-14&sortBy=popularity&apiKey=ef9b9abba21f447991be8f6feeb4c331"
